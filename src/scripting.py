@@ -21,7 +21,7 @@ def hello(name, age):
 def main():
     # run input parse to get name 
     args = input_parse()
-    # pass name to hell()
+    # pass name to hell0()
     hello(args.name,args.age)
 
 # if .py script is called from command line, then do this, otherwise don't do anything 
