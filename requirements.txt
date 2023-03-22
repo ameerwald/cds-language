@@ -4,3 +4,4 @@ pandas
 gensim
 scikit-learn
 spacy
+tensorflow-cpu
