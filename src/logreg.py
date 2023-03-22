@@ -56,7 +56,7 @@ def main():
     classifier_metrics = metrics.classification_report(y_test, y_pred)
     print(classifier_metrics)
 
-if __name__ = "__main__":
+if __name__=="__main__":
     main()
 
 # seperate function for arg parse - can change the file name arg.filename for example and can change the numerical parameters 
