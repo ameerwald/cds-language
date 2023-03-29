@@ -1,7 +1,4 @@
-matplotlib
-numpy
-pandas
-gensim
+
+bertopic
 scikit-learn
-spacy
-tensorflow-cpu
+pandas

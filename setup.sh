@@ -1,13 +1,11 @@
 #!/usr/bin/env bash
 
-# create virtual environment
-#python3 -m venv spacy_env
+# install hdbscan for BERTopic
+sudo apt-get update
+sudo apt-get install python3-dev
 
-#activate virtual environment
-#source ./spacy_env/bin/activate
-
-# then install requirements
-python3 -m pip install --upgrade pip
-python3.9 -m pip install -r requirements.txt
-python -m spacy download en_core_web_md
-
+# requirements
+pip install --upgrade pip
+pip install --upgrade nbformat
+python3 -m pip install -r requirements.txt
+>>>>>>> 52da4eb463d16bfca02f995c5dad9056e2bfb02c
