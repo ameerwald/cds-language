@@ -8,4 +8,4 @@ sudo apt-get install python3-dev
 pip install --upgrade pip
 pip install --upgrade nbformat
 python3 -m pip install -r requirements.txt
->>>>>>> 52da4eb463d16bfca02f995c5dad9056e2bfb02c
+
